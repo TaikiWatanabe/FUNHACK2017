@@ -17,7 +17,7 @@ Star[] star = new Star[SIZE];
 
 void setup() {
   //通信先指定
-  wsc= new WebsocketClient(this, "ws://rsserver.herokuapp.com");
+  wsc= new WebsocketClient(this, "ws://motionvisualizer.herokuapp.com");
   
   //色々設定
   fullScreen();
@@ -96,17 +96,14 @@ void keyPressed() {
 
 //サーバからデータを受信したら呼び出される
 void webSocketEvent(String msg){
- println(msg);
+ //println(msg);
  //message += msg + "\n";
- int test = int(msg);
+ //int test = int(msg);
+ int []array = new int[2];
+ array=int(split(msg,","));
+ println(array);
  for (int i=SIZE-1; i>0; i--) {
     circle[i] = new Circle(circle[i-1]);
   }
-circle[0].init(displayWidth*test/100, displayHeight*test/100, random(5, 15), int(random(10, 80)));
+circle[0].init(displayWidth*array[0]/100, displayHeight*array[1]/100, random(5, 15), int(random(10, 80)));
 }
-/*
-for (int i=SIZE-1; i>0; i--) {
-    circle[i] = new Circle(circle[i-1]);
-  }
-circle[0].init(displayWidth*1/100, displayHeight*1/100, random(5, 15), int(random(10, 80)));
-*/
