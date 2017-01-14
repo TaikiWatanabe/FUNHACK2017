@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5200A62416172C39B4AB518CA2F93A75'
-               BlueprintName = 'Pulsator'
+               BlueprintIdentifier = 'D9534A812965604606CDA1E94D9A94F9'
+               BlueprintName = 'SwiftGifOrigin'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pulsator.framework'>
+               BuildableName = 'SwiftGifOrigin.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
