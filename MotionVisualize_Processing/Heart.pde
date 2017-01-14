@@ -46,13 +46,13 @@ public class Heart {
     strokeJoin(ROUND); //線のつなぎ目について設定
     //translate(1*pix, 1*piy);
     pushMatrix();
-    x += pix;
-    y += piy;
+    x += 4*pix;
+    y += 4*piy;
     translate(x, y);
     beginShape();
     for (int theta = 0; theta < 360; theta++) {
-      float x1 = 0.5 * (16 * sin(radians(theta)) * sin(radians(theta)) * sin(radians(theta)));
-      float y1 = (-1) * 0.5 * (13 * cos(radians(theta)) - 5 * cos(radians(2 * theta)) 
+      float x1 = 4 * (16 * sin(radians(theta)) * sin(radians(theta)) * sin(radians(theta)));
+      float y1 = (-1) * 4 * (13 * cos(radians(theta)) - 5 * cos(radians(2 * theta)) 
         - 2 * cos(radians(3 * theta)) - cos(radians(4 * theta)));
 
       vertex(x1, y1);

@@ -6,12 +6,13 @@ public class Star {
   boolean flag;//円が起こった時のフラグ
   int vertex_num = 5*2; //頂点数(星を描画、トゲの数*2)
   int R; //中心から頂点までの距離(半径)
-  int R_out = 150; //中心からとげまでの距離(半径)
+  int R_out = 50; //中心からとげまでの距離(半径)
   int R_in = R_out/2; //中心から谷までの距離(半径)
+  float pix,piy;
 
   //円のインスタンスが生成された際に成り行きであるイニシャライザ
   Star() {
-    init(0, 0, 0, 0);
+    init(0, 0, 0, 0,0,0);
     flag = false;
   }
 
@@ -26,13 +27,15 @@ public class Star {
   }
 
   //円が起こるときに起こるもの
-  public void init(int _x, int _y, float _speed, int _colorH) {
+  public void init(int _x, int _y, float _speed, int _colorH,float _pix,float _piy) {
     x = _x;
     y = _y;
     speed = _speed;
     colorH = _colorH;
     dia = 0.0;
     flag = true;
+    pix = _pix;
+    piy = _piy;
   }
 
   //円の描写
@@ -44,8 +47,9 @@ public class Star {
     //stroke(色相、彩度、明るさ、透明度)
     stroke(colorH, 60, 99, 100*(speed-1)/3);
     strokeWeight(4);
-    ellipse(x, y, dia, dia);
     pushMatrix();
+    x += 2*pix;
+    y += 2*piy;
     translate(x, y);
     rotate(radians(-90));
     beginShape();
