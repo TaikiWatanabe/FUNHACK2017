@@ -98,4 +98,15 @@ void keyPressed() {
 void webSocketEvent(String msg){
  println(msg);
  //message += msg + "\n";
+ int test = int(msg);
+ for (int i=SIZE-1; i>0; i--) {
+    circle[i] = new Circle(circle[i-1]);
+  }
+circle[0].init(displayWidth*test/100, displayHeight*test/100, random(5, 15), int(random(10, 80)));
 }
+/*
+for (int i=SIZE-1; i>0; i--) {
+    circle[i] = new Circle(circle[i-1]);
+  }
+circle[0].init(displayWidth*1/100, displayHeight*1/100, random(5, 15), int(random(10, 80)));
+*/
