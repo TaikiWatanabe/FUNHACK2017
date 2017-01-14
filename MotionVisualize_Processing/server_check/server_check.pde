@@ -9,6 +9,7 @@ void setup() {
 
     myClient = new Client(this, "rsserver.herokuapp.com", 80); //<>//
     
+    //接続確認
     if(myClient.active()){ //<>//
         println("Success."); //<>//
     } //<>//
