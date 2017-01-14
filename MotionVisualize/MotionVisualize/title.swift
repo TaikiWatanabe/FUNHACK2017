@@ -10,11 +10,18 @@ import UIKit
 
 class title: UIViewController {
 
+    @IBOutlet weak var webview: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let url = Bundle.main.url(forResource: "logo", withExtension: "gif")!
+        let data = try! Data(contentsOf: url)
+        webview.load(data, mimeType: "image/gif", textEncodingName: "UTF-8", baseURL: NSURL() as URL)
+
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -26,7 +33,5 @@ class title: UIViewController {
         targetView.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
         self.present(targetView, animated: true, completion: nil)
     }
-
-    
 }
 
