@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "94339d40f250a0bdf93c6527dfc9af1e"
+build_time: [537712051, 970204000]
+inputs:
+  "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Pods/Pulsator/Pulsator/Pulsator.swift": [537711976, 0]

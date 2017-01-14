@@ -1,0 +1,454 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "getMotion"
+provides-nominal:
+- "C15MotionVisualize9getMotion"
+provides-member:
+- ["C15MotionVisualize9getMotion", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "testLabel"
+- "onTick"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CMMotionManager"
+- "CGFloat"
+- !private "OperationQueue"
+- !private "+="
+- "UIViewController"
+- "CAShapeLayer"
+- "Timer"
+- "getMotion"
+- !private "CMAcceleration"
+- !private ">="
+- "UILabel"
+depends-member:
+- ["Ps9AnyObject", "CAShapeLayer"]
+- !private ["Ps9AnyObject", "CMMotionManager"]
+- !private ["Ps9AnyObject", "OperationQueue"]
+- ["Ps9AnyObject", "addedLayers"]
+- ["Ps9AnyObject", "alpha"]
+- !private ["Ps9AnyObject", "current"]
+- !private ["Ps9AnyObject", "deviceMotionUpdateInterval"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "motionManager"]
+- ["Ps9AnyObject", "onTick"]
+- ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "startDeviceMotionUpdates"]
+- ["Ps9AnyObject", "testLabel"]
+- !private ["Ps9AnyObject", "userAcceleration"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC14CMAcceleration", "deinit"]
+- !private ["CSo14CMDeviceMotion", "deinit"]
+- !private ["CSo14CMDeviceMotion", "userAcceleration"]
+- !private ["CSo9CMLogItem", "userAcceleration"]
+- ["CSo15CMMotionManager", "deinit"]
+- !private ["CSo15CMMotionManager", "deviceMotionUpdateInterval"]
+- !private ["CSo15CMMotionManager", "init"]
+- !private ["CSo15CMMotionManager", "startDeviceMotionUpdates"]
+- ["Ps7CVarArg", "CAShapeLayer"]
+- !private ["Ps7CVarArg", "CMMotionManager"]
+- !private ["Ps7CVarArg", "OperationQueue"]
+- ["Ps7CVarArg", "addedLayers"]
+- ["Ps7CVarArg", "alpha"]
+- !private ["Ps7CVarArg", "current"]
+- !private ["Ps7CVarArg", "deviceMotionUpdateInterval"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "motionManager"]
+- ["Ps7CVarArg", "onTick"]
+- ["Ps7CVarArg", "size"]
+- !private ["Ps7CVarArg", "startDeviceMotionUpdates"]
+- ["Ps7CVarArg", "testLabel"]
+- !private ["Ps7CVarArg", "userAcceleration"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Collection", "init"]
+- ["Ps28CustomDebugStringConvertible", "CAShapeLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "CMMotionManager"]
+- !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
+- ["Ps28CustomDebugStringConvertible", "addedLayers"]
+- ["Ps28CustomDebugStringConvertible", "alpha"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
+- !private ["Ps28CustomDebugStringConvertible", "deviceMotionUpdateInterval"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "motionManager"]
+- ["Ps28CustomDebugStringConvertible", "onTick"]
+- ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "startDeviceMotionUpdates"]
+- ["Ps28CustomDebugStringConvertible", "testLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "userAcceleration"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "CAShapeLayer"]
+- !private ["Ps23CustomStringConvertible", "CMMotionManager"]
+- !private ["Ps23CustomStringConvertible", "OperationQueue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "addedLayers"]
+- ["Ps23CustomStringConvertible", "alpha"]
+- !private ["Ps23CustomStringConvertible", "current"]
+- !private ["Ps23CustomStringConvertible", "deviceMotionUpdateInterval"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "motionManager"]
+- ["Ps23CustomStringConvertible", "onTick"]
+- ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "startDeviceMotionUpdates"]
+- ["Ps23CustomStringConvertible", "testLabel"]
+- !private ["Ps23CustomStringConvertible", "userAcceleration"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "CAShapeLayer"]
+- !private ["Ps9Equatable", "CMMotionManager"]
+- !private ["Ps9Equatable", "OperationQueue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "addedLayers"]
+- ["Ps9Equatable", "alpha"]
+- !private ["Ps9Equatable", "current"]
+- !private ["Ps9Equatable", "deviceMotionUpdateInterval"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "motionManager"]
+- ["Ps9Equatable", "onTick"]
+- ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "startDeviceMotionUpdates"]
+- ["Ps9Equatable", "testLabel"]
+- !private ["Ps9Equatable", "userAcceleration"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "CAShapeLayer"]
+- !private ["Ps8Hashable", "CMMotionManager"]
+- !private ["Ps8Hashable", "OperationQueue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "addedLayers"]
+- ["Ps8Hashable", "alpha"]
+- !private ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "deviceMotionUpdateInterval"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "motionManager"]
+- ["Ps8Hashable", "onTick"]
+- ["Ps8Hashable", "size"]
+- !private ["Ps8Hashable", "startDeviceMotionUpdates"]
+- ["Ps8Hashable", "testLabel"]
+- !private ["Ps8Hashable", "userAcceleration"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Ps9Indexable", "init"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps17MutableCollection", "init"]
+- ["Ps16MutableIndexable", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "CAShapeLayer"]
+- !private ["PSo8NSCoding", "CMMotionManager"]
+- !private ["PSo8NSCoding", "OperationQueue"]
+- ["PSo8NSCoding", "addedLayers"]
+- ["PSo8NSCoding", "alpha"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "motionManager"]
+- ["PSo8NSCoding", "onTick"]
+- ["PSo8NSCoding", "size"]
+- ["PSo8NSCoding", "testLabel"]
+- !private ["PSo8NSCoding", "userAcceleration"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "userAcceleration"]
+- ["PSo26NSExtensionRequestHandling", "CAShapeLayer"]
+- !private ["PSo26NSExtensionRequestHandling", "CMMotionManager"]
+- !private ["PSo26NSExtensionRequestHandling", "OperationQueue"]
+- ["PSo26NSExtensionRequestHandling", "addedLayers"]
+- ["PSo26NSExtensionRequestHandling", "alpha"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "motionManager"]
+- ["PSo26NSExtensionRequestHandling", "onTick"]
+- ["PSo26NSExtensionRequestHandling", "size"]
+- ["PSo26NSExtensionRequestHandling", "testLabel"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "CAShapeLayer"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CMAcceleration"]
+- ["CSo8NSObject", "CMMotionManager"]
+- !private ["CSo8NSObject", "OperationQueue"]
+- ["CSo8NSObject", "Timer"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "addedLayers"]
+- ["CSo8NSObject", "alpha"]
+- !private ["CSo8NSObject", "current"]
+- !private ["CSo8NSObject", "deviceMotionUpdateInterval"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "motionManager"]
+- ["CSo8NSObject", "onTick"]
+- ["CSo8NSObject", "size"]
+- !private ["CSo8NSObject", "startDeviceMotionUpdates"]
+- ["CSo8NSObject", "testLabel"]
+- !private ["CSo8NSObject", "userAcceleration"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "CAShapeLayer"]
+- !private ["PSo16NSObjectProtocol", "CMMotionManager"]
+- !private ["PSo16NSObjectProtocol", "OperationQueue"]
+- ["PSo16NSObjectProtocol", "addedLayers"]
+- ["PSo16NSObjectProtocol", "alpha"]
+- !private ["PSo16NSObjectProtocol", "current"]
+- !private ["PSo16NSObjectProtocol", "deviceMotionUpdateInterval"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "motionManager"]
+- ["PSo16NSObjectProtocol", "onTick"]
+- ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo16NSObjectProtocol", "startDeviceMotionUpdates"]
+- ["PSo16NSObjectProtocol", "testLabel"]
+- !private ["PSo16NSObjectProtocol", "userAcceleration"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "userAcceleration"]
+- !private ["CSo14OperationQueue", "current"]
+- ["CSo14OperationQueue", "deinit"]
+- ["Sq", "deinit"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- ["Ps8Sequence", "init"]
+- ["PSo21UIAppearanceContainer", "CAShapeLayer"]
+- !private ["PSo21UIAppearanceContainer", "CMMotionManager"]
+- !private ["PSo21UIAppearanceContainer", "OperationQueue"]
+- ["PSo21UIAppearanceContainer", "addedLayers"]
+- ["PSo21UIAppearanceContainer", "alpha"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "motionManager"]
+- ["PSo21UIAppearanceContainer", "onTick"]
+- ["PSo21UIAppearanceContainer", "size"]
+- ["PSo21UIAppearanceContainer", "testLabel"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "CAShapeLayer"]
+- !private ["PSo18UIContentContainer", "CMMotionManager"]
+- !private ["PSo18UIContentContainer", "OperationQueue"]
+- ["PSo18UIContentContainer", "addedLayers"]
+- ["PSo18UIContentContainer", "alpha"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "motionManager"]
+- ["PSo18UIContentContainer", "onTick"]
+- ["PSo18UIContentContainer", "size"]
+- ["PSo18UIContentContainer", "testLabel"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "CAShapeLayer"]
+- !private ["PSo18UIFocusEnvironment", "CMMotionManager"]
+- !private ["PSo18UIFocusEnvironment", "OperationQueue"]
+- ["PSo18UIFocusEnvironment", "addedLayers"]
+- ["PSo18UIFocusEnvironment", "alpha"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "motionManager"]
+- ["PSo18UIFocusEnvironment", "onTick"]
+- ["PSo18UIFocusEnvironment", "size"]
+- ["PSo18UIFocusEnvironment", "testLabel"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CAShapeLayer"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CMAcceleration"]
+- ["CSo11UIResponder", "CMMotionManager"]
+- !private ["CSo11UIResponder", "OperationQueue"]
+- ["CSo11UIResponder", "Timer"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "addedLayers"]
+- ["CSo11UIResponder", "alpha"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "motionManager"]
+- ["CSo11UIResponder", "onTick"]
+- ["CSo11UIResponder", "size"]
+- ["CSo11UIResponder", "testLabel"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "CAShapeLayer"]
+- !private ["PSo30UIResponderStandardEditActions", "CMMotionManager"]
+- !private ["PSo30UIResponderStandardEditActions", "OperationQueue"]
+- ["PSo30UIResponderStandardEditActions", "addedLayers"]
+- ["PSo30UIResponderStandardEditActions", "alpha"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "motionManager"]
+- ["PSo30UIResponderStandardEditActions", "onTick"]
+- ["PSo30UIResponderStandardEditActions", "size"]
+- ["PSo30UIResponderStandardEditActions", "testLabel"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "CAShapeLayer"]
+- !private ["PSo16UIStateRestoring", "CMMotionManager"]
+- !private ["PSo16UIStateRestoring", "OperationQueue"]
+- ["PSo16UIStateRestoring", "addedLayers"]
+- ["PSo16UIStateRestoring", "alpha"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "motionManager"]
+- ["PSo16UIStateRestoring", "onTick"]
+- ["PSo16UIStateRestoring", "size"]
+- ["PSo16UIStateRestoring", "testLabel"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "CAShapeLayer"]
+- !private ["PSo18UITraitEnvironment", "CMMotionManager"]
+- !private ["PSo18UITraitEnvironment", "OperationQueue"]
+- ["PSo18UITraitEnvironment", "addedLayers"]
+- ["PSo18UITraitEnvironment", "alpha"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "motionManager"]
+- ["PSo18UITraitEnvironment", "onTick"]
+- ["PSo18UITraitEnvironment", "size"]
+- ["PSo18UITraitEnvironment", "testLabel"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "CAShapeLayer"]
+- ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "CMAcceleration"]
+- ["CSo16UIViewController", "CMMotionManager"]
+- !private ["CSo16UIViewController", "OperationQueue"]
+- ["CSo16UIViewController", "Timer"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "addedLayers"]
+- ["CSo16UIViewController", "alpha"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "motionManager"]
+- ["CSo16UIViewController", "onTick"]
+- ["CSo16UIViewController", "size"]
+- ["CSo16UIViewController", "testLabel"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["Ps14_ArrayProtocol", "init"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "CAShapeLayer"]
+- !private ["Ps9_Hashable", "CMMotionManager"]
+- !private ["Ps9_Hashable", "OperationQueue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "addedLayers"]
+- ["Ps9_Hashable", "alpha"]
+- !private ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "deviceMotionUpdateInterval"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "motionManager"]
+- ["Ps9_Hashable", "onTick"]
+- ["Ps9_Hashable", "size"]
+- !private ["Ps9_Hashable", "startDeviceMotionUpdates"]
+- ["Ps9_Hashable", "testLabel"]
+- !private ["Ps9_Hashable", "userAcceleration"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["C15MotionVisualize9getMotion", "CAShapeLayer"]
+- ["C15MotionVisualize9getMotion", "CGFloat"]
+- !private ["C15MotionVisualize9getMotion", "CMAcceleration"]
+- ["C15MotionVisualize9getMotion", "CMMotionManager"]
+- !private ["C15MotionVisualize9getMotion", "OperationQueue"]
+- ["C15MotionVisualize9getMotion", "Timer"]
+- ["C15MotionVisualize9getMotion", "UILabel"]
+- !private ["C15MotionVisualize9getMotion", "addedLayers"]
+- !private ["C15MotionVisualize9getMotion", "alpha"]
+- ["C15MotionVisualize9getMotion", "deinit"]
+- ["C15MotionVisualize9getMotion", "didReceiveMemoryWarning"]
+- ["C15MotionVisualize9getMotion", "init"]
+- !private ["C15MotionVisualize9getMotion", "motionManager"]
+- ["C15MotionVisualize9getMotion", "onTick"]
+- !private ["C15MotionVisualize9getMotion", "size"]
+- ["C15MotionVisualize9getMotion", "testLabel"]
+- ["C15MotionVisualize9getMotion", "viewDidLoad"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC14CMAcceleration"
+- !private "CSo14CMDeviceMotion"
+- !private "CSo9CMLogItem"
+- "CSo15CMMotionManager"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Ps25LosslessStringConvertible"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo14OperationQueue"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "C15MotionVisualize9getMotion"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "a1933925f0c00dd14d830426335a7234"

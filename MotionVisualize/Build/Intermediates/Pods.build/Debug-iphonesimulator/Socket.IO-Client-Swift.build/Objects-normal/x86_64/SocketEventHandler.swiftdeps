@@ -1,0 +1,74 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketEventHandler"
+provides-nominal:
+- "V8SocketIO18SocketEventHandler"
+provides-member:
+- ["V8SocketIO18SocketEventHandler", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SocketIOClient"
+- "Int"
+- !private "SocketAckEmitter"
+- "String"
+- "NormalCallback"
+- "UUID"
+- "SocketEventHandler"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["Sa", "deinit"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps8Hashable", "init"]
+- ["Si", "deinit"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["C8SocketIO16SocketAckEmitter", "deinit"]
+- !private ["C8SocketIO16SocketAckEmitter", "init"]
+- ["V8SocketIO18SocketEventHandler", "Int"]
+- ["V8SocketIO18SocketEventHandler", "NormalCallback"]
+- !private ["V8SocketIO18SocketEventHandler", "SocketAckEmitter"]
+- ["V8SocketIO18SocketEventHandler", "SocketIOClient"]
+- ["V8SocketIO18SocketEventHandler", "String"]
+- ["V8SocketIO18SocketEventHandler", "UUID"]
+- ["V8SocketIO18SocketEventHandler", "callback"]
+- ["V8SocketIO18SocketEventHandler", "deinit"]
+- ["V8SocketIO18SocketEventHandler", "event"]
+- ["V8SocketIO18SocketEventHandler", "executeCallback"]
+- ["V8SocketIO18SocketEventHandler", "id"]
+- ["V8SocketIO18SocketEventHandler", "init"]
+- ["C8SocketIO14SocketIOClient", "deinit"]
+- ["SS", "deinit"]
+- ["V10Foundation4UUID", "deinit"]
+- !private ["Ps9_Hashable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "Si"
+- !private "PSo16NSObjectProtocol"
+- "C8SocketIO16SocketAckEmitter"
+- "V8SocketIO18SocketEventHandler"
+- "C8SocketIO14SocketIOClient"
+- "SS"
+- "V10Foundation4UUID"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "082cf6ea6471c22d0e40c11d1394e8ef"
