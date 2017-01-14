@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		52DD73E24EC5E351B377A604 /* Pods_MotionVisualizeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3CFDF49D80D6A48479379 /* Pods_MotionVisualizeUITests.framework */; };
 		5CE7E9901E29F28300B2CFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E98F1E29F28300B2CFF3 /* AppDelegate.swift */; };
-		5CE7E9921E29F28300B2CFF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9911E29F28300B2CFF3 /* ViewController.swift */; };
+		5CE7E9921E29F28300B2CFF3 /* title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9911E29F28300B2CFF3 /* title.swift */; };
 		5CE7E9951E29F28300B2CFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7E9931E29F28300B2CFF3 /* Main.storyboard */; };
 		5CE7E9971E29F28300B2CFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7E9961E29F28300B2CFF3 /* Assets.xcassets */; };
 		5CE7E99A1E29F28300B2CFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7E9981E29F28300B2CFF3 /* LaunchScreen.storyboard */; };
 		5CE7E9A51E29F28400B2CFF3 /* MotionVisualizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9A41E29F28400B2CFF3 /* MotionVisualizeTests.swift */; };
 		5CE7E9B01E29F28400B2CFF3 /* MotionVisualizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9AF1E29F28400B2CFF3 /* MotionVisualizeUITests.swift */; };
+		5F7684631E2A2DB800EF97D3 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F7684621E2A2DB800EF97D3 /* circle.png */; };
+		5F96E71D1E29FDAC001D310C /* getMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E71C1E29FDAC001D310C /* getMotion.swift */; };
+		5F96E7221E2A0AE1001D310C /* logo01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5F96E7211E2A0AE1001D310C /* logo01.JPG */; };
 		9B54FE94931D4BD2C455B28C /* Pods_MotionVisualizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1ADD41BC798E2B48C26C /* Pods_MotionVisualizeTests.framework */; };
 		AADAB45669B4C19F8952BC46 /* Pods_MotionVisualize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F35DFC061B2F36579E7E0E4 /* Pods_MotionVisualize.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +45,7 @@
 		588D850AA298F6EEEDCB8968 /* Pods-MotionVisualize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualize.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualize/Pods-MotionVisualize.release.xcconfig"; sourceTree = "<group>"; };
 		5CE7E98C1E29F28300B2CFF3 /* MotionVisualize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionVisualize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE7E98F1E29F28300B2CFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CE7E9911E29F28300B2CFF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CE7E9911E29F28300B2CFF3 /* title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = title.swift; sourceTree = "<group>"; };
 		5CE7E9941E29F28300B2CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CE7E9961E29F28300B2CFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE7E9991E29F28300B2CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		5CE7E9AF1E29F28400B2CFF3 /* MotionVisualizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionVisualizeUITests.swift; sourceTree = "<group>"; };
 		5CE7E9B11E29F28400B2CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D924B8FD0705963D4995B88 /* Pods-MotionVisualizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeTests/Pods-MotionVisualizeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F7684621E2A2DB800EF97D3 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		5F96E71C1E29FDAC001D310C /* getMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getMotion.swift; sourceTree = "<group>"; };
+		5F96E7211E2A0AE1001D310C /* logo01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo01.JPG; sourceTree = "<group>"; };
 		68A3CFDF49D80D6A48479379 /* Pods_MotionVisualizeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionVisualizeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C35147512CBA52C3493CE0 /* Pods-MotionVisualizeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeUITests/Pods-MotionVisualizeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AFADF0108B92CDDE723EE909 /* Pods-MotionVisualizeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeUITests/Pods-MotionVisualizeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,12 +133,15 @@
 		5CE7E98E1E29F28300B2CFF3 /* MotionVisualize */ = {
 			isa = PBXGroup;
 			children = (
+				5F7684621E2A2DB800EF97D3 /* circle.png */,
+				5F96E7211E2A0AE1001D310C /* logo01.JPG */,
 				5CE7E98F1E29F28300B2CFF3 /* AppDelegate.swift */,
-				5CE7E9911E29F28300B2CFF3 /* ViewController.swift */,
+				5CE7E9911E29F28300B2CFF3 /* title.swift */,
 				5CE7E9931E29F28300B2CFF3 /* Main.storyboard */,
 				5CE7E9961E29F28300B2CFF3 /* Assets.xcassets */,
 				5CE7E9981E29F28300B2CFF3 /* LaunchScreen.storyboard */,
 				5CE7E99B1E29F28300B2CFF3 /* Info.plist */,
+				5F96E71C1E29FDAC001D310C /* getMotion.swift */,
 			);
 			path = MotionVisualize;
 			sourceTree = "<group>";
@@ -286,6 +295,8 @@
 			files = (
 				5CE7E99A1E29F28300B2CFF3 /* LaunchScreen.storyboard in Resources */,
 				5CE7E9971E29F28300B2CFF3 /* Assets.xcassets in Resources */,
+				5F7684631E2A2DB800EF97D3 /* circle.png in Resources */,
+				5F96E7221E2A0AE1001D310C /* logo01.JPG in Resources */,
 				5CE7E9951E29F28300B2CFF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE7E9921E29F28300B2CFF3 /* ViewController.swift in Sources */,
+				5CE7E9921E29F28300B2CFF3 /* title.swift in Sources */,
+				5F96E71D1E29FDAC001D310C /* getMotion.swift in Sources */,
 				5CE7E9901E29F28300B2CFF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +617,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YK5T9GF6Y;
 				INFOPLIST_FILE = MotionVisualize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Project.MotionVisualize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -619,6 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YK5T9GF6Y;
 				INFOPLIST_FILE = MotionVisualize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Project.MotionVisualize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -707,6 +721,7 @@
 				5CE7E9B61E29F28400B2CFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CE7E9B71E29F28400B2CFF3 /* Build configuration list for PBXNativeTarget "MotionVisualizeTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +730,7 @@
 				5CE7E9B91E29F28400B2CFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CE7E9BA1E29F28400B2CFF3 /* Build configuration list for PBXNativeTarget "MotionVisualizeUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +739,7 @@
 				5CE7E9BC1E29F28400B2CFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

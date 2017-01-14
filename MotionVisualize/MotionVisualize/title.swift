@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class title: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //startボタンでgetMotion画面に遷移
+    @IBAction func goGetMotion(_ sender: AnyObject) {
+        let targetView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "getMotion")
+        targetView.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        self.present(targetView, animated: true, completion: nil)
+    }
 
+    
 }
 
