@@ -1,4 +1,8 @@
-import http.requests.*;
+//import http.requests.*;
+import websockets.*;
+
+WebsocketClient wsc;
+String message = "";
 
 //表示できる文字の最大数
 int SIZE = 20;
@@ -6,6 +10,9 @@ Circle[] circle = new Circle[SIZE];
 Heart[] heart = new Heart[SIZE];
 
 void setup() {
+  //通信先指定
+  wsc= new WebsocketClient(this, "ws://rsserver.herokuapp.com");
+  
   //色々設定
   fullScreen();
   colorMode(HSB,100);
@@ -49,4 +56,10 @@ void keyPressed() {
     circle[i] = new Circle(circle[i-1]);
   }
   circle[0].init(int(random(0,width)),int(random(0,height)),random(5,15),int(random(10,80)));
+}
+
+//サーバからデータを受信したら呼び出される
+void webSocketEvent(String msg){
+ println(msg);
+ //message += msg + "\n";
 }
