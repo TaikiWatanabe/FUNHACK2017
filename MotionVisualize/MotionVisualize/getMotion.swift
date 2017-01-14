@@ -8,20 +8,24 @@
 
 import UIKit
 import CoreMotion
+import Pulsator
+
+let kMaxRadius: CGFloat = 200
+let kMaxDuration: TimeInterval = 10
 
 class getMotion: UIViewController {
     
+    @IBOutlet weak var sourceView: UIImageView!
     private var motionManager: CMMotionManager!//CMMotion使うためのやつ1
-    private var size:CGFloat = 0.0
-    private var alpha:CGFloat = 0.0
-    
-    private var addedLayers = [CAShapeLayer]()
-    
-    /*-----------------テストラベルstart-------------*/
-    @IBOutlet weak var testLabel: UILabel!
-    /*-----------------テストラベルend-------------*/
+    let pulsator = Pulsator()
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        sourceView.layer.addSublayer(pulsator)
+        pulsator.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+        pulsator.numPulse = 3
+        pulsator.radius = 120.0
         
         //センサー情報の通知の開始
         motionManager = CMMotionManager()
@@ -32,28 +36,27 @@ class getMotion: UIViewController {
             let accel: CMAcceleration = deviceManager!.userAcceleration
         })
         
-        //タイマーの生成
-        //Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(getMotion.onTick(_:)), userInfo: nil, repeats: true)
-        //self.circle(size: size,alphaValue:alpha)
-        
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(getMotion.onTick(_:)), userInfo: nil, repeats: false)
     }
-
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func onTick(_ timer: Timer){
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
-        size += 1.5
-        alpha += 0.01
-        if(alpha>=0.49){
-            alpha = 0
-            size = 0
-        }
-        //self.circle(size: size,alphaValue:alpha)
+        //sourceView.layer.layoutIfNeeded()
+        //pulsator.position = sourceView.layer.position
+    }
+    
+    @IBAction func stop(_ sender: AnyObject) {
+        pulsator.start()
+    }
+    
+    //0.1秒間隔の定期処理
+    func onTick(_ timer: Timer){
+        pulsator.start()
     }
 }

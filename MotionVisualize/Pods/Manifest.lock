@@ -1,15 +1,18 @@
 PODS:
   - Pulsator (0.2.0)
   - Socket.IO-Client-Swift (8.0.2)
+  - SwiftyGif (1.2.2)
 
 DEPENDENCIES:
   - Pulsator
   - Socket.IO-Client-Swift
+  - SwiftyGif
 
 SPEC CHECKSUMS:
   Pulsator: 0df1d24c09354555be8f4c386ba7c4df297690eb
   Socket.IO-Client-Swift: 136598e4a81a42b0e6855e7f94a0e5a6efdc5ff8
+  SwiftyGif: 5b93bed65ed6df90796dff11fea231d7119da460
 
-PODFILE CHECKSUM: 854f0760f24ff6bbacd698e470ff8dc7fda3bcb0
+PODFILE CHECKSUM: 2fe215e0362e68f0156b48e346b7ab90cd77825e
 
 COCOAPODS: 1.1.1

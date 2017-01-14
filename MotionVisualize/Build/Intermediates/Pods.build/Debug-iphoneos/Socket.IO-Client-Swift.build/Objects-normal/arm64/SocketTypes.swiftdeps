@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketData"
+- "AckCallback"
+- "NormalCallback"
+- "OnAckCallback"
+- "Probe"
+- "ProbeWaitQueue"
+- "Either"
+provides-nominal:
+- "P8SocketIO10SocketData"
+- "Sa"
+- "Sb"
+- "Vs10Dictionary"
+- "Sd"
+- "Si"
+- "CSo7NSArray"
+- "V10Foundation4Data"
+- "CSo6NSData"
+- "CSo12NSDictionary"
+- "CSo8NSString"
+- "CSo6NSNull"
+- "SS"
+- "O8SocketIO6Either"
+provides-member:
+- ["P8SocketIO10SocketData", ""]
+- ["Sa", ""]
+- ["Sb", ""]
+- ["Vs10Dictionary", ""]
+- ["Sd", ""]
+- ["Si", ""]
+- ["CSo7NSArray", ""]
+- ["V10Foundation4Data", ""]
+- ["CSo6NSData", ""]
+- ["CSo12NSDictionary", ""]
+- ["CSo8NSString", ""]
+- ["CSo6NSNull", ""]
+- ["SS", ""]
+- ["O8SocketIO6Either", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SocketData"
+- "Dictionary"
+- "NSNull"
+- "Bool"
+- "Data"
+- "Probe"
+- "Double"
+- "Array"
+- "SocketAckEmitter"
+- "NSDictionary"
+- "AckCallback"
+- "SocketEnginePacketType"
+- "Int"
+- "ProbeWaitQueue"
+- "NormalCallback"
+- "NSArray"
+- "UInt64"
+- "String"
+- "NSData"
+- "Either"
+- "OnAckCallback"
+- "Void"
+- "NSString"
+depends-member:
+- ["Sa", "deinit"]
+- ["Sb", "deinit"]
+- ["V10Foundation4Data", "deinit"]
+- ["Vs10Dictionary", "deinit"]
+- ["Sd", "deinit"]
+- ["O8SocketIO6Either", "E"]
+- ["O8SocketIO6Either", "V"]
+- ["O8SocketIO6Either", "left"]
+- ["O8SocketIO6Either", "right"]
+- ["Si", "deinit"]
+- ["CSo7NSArray", "deinit"]
+- ["CSo6NSData", "deinit"]
+- ["CSo12NSDictionary", "deinit"]
+- ["CSo6NSNull", "deinit"]
+- ["CSo8NSString", "deinit"]
+- ["P8SocketIO10SocketData", ""]
+- ["SS", "deinit"]
+depends-nominal:
+- "Sa"
+- "Sb"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- "Sd"
+- "O8SocketIO6Either"
+- "Si"
+- "CSo7NSArray"
+- "CSo6NSData"
+- "CSo12NSDictionary"
+- "CSo6NSNull"
+- "CSo8NSString"
+- "P8SocketIO10SocketData"
+- "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphoneos/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "bf2f4c755ba4bf334fc4f3bccfb1c7aa"

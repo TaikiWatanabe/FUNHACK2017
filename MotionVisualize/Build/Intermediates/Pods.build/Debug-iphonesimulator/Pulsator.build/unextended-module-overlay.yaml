@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pulsator/Pulsator.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pulsator.build/unextended-module.modulemap',
+    }]
+  }]
+}

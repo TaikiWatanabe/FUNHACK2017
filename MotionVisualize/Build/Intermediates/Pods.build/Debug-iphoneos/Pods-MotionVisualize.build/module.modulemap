@@ -1,0 +1,6 @@
+framework module Pods_MotionVisualize {
+  umbrella header "Pods-MotionVisualize-umbrella.h"
+
+  export *
+  module * { export * }
+}
