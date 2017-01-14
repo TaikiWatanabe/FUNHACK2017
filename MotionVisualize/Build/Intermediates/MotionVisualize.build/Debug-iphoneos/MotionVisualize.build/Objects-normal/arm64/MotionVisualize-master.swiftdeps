@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "be6f78c442a96db39924d73684ea8e2d"
+build_time: [537721709, 467323000]
+inputs:
+  "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/MotionVisualize/title.swift": [537711426, 0]
+  "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/MotionVisualize/getMotion.swift": [537721708, 0]
+  "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/MotionVisualize/AppDelegate.swift": [537688152, 0]
