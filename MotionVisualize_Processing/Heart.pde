@@ -46,8 +46,8 @@ public class Heart {
     translate(x, y);
     beginShape();
     for (int theta = 0; theta < 360; theta++) {
-      float x1 = 8 * (16 * sin(radians(theta)) * sin(radians(theta)) * sin(radians(theta)));
-      float y1 = (-1) * 8 * (13 * cos(radians(theta)) - 5 * cos(radians(2 * theta)) 
+      float x1 = 0.5 * (16 * sin(radians(theta)) * sin(radians(theta)) * sin(radians(theta)));
+      float y1 = (-1) * 0.5 * (13 * cos(radians(theta)) - 5 * cos(radians(2 * theta)) 
         - 2 * cos(radians(3 * theta)) - cos(radians(4 * theta)));
 
       vertex(x1, y1);

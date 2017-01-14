@@ -28,7 +28,7 @@ void draw() {
       circle[i].move();
       circle[i].circleDraw();
       heart[i].move();
-      heart[i].getFlag();
+      heart[i].heartDraw();
     }
   }
 }
