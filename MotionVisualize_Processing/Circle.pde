@@ -1,5 +1,5 @@
 //円の拡大する際の加速度(減少率)
-float FRICTION = 0.985;
+float FRICTION = 0.97;
 
 public class Circle{
   int x,y;//円のx,y座標
