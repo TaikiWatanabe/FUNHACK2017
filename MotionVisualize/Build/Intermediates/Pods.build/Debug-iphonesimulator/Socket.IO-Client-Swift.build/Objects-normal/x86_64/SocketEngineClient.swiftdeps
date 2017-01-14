@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["P8SocketIO18SocketEngineClient", ""]
 provides-dynamic-lookup:
-- "parseEngineMessage"
-- "engineDidClose"
-- "parseEngineBinaryData"
-- "engineDidError"
 - "engineDidOpen"
+- "parseEngineBinaryData"
+- "engineDidClose"
+- "engineDidError"
+- "parseEngineMessage"
 depends-top-level:
-- "String"
-- "SocketEngineClient"
 - "Data"
+- "SocketEngineClient"
+- "String"
 depends-member:
 - ["P8SocketIO18SocketEngineClient", "Data"]
 - ["P8SocketIO18SocketEngineClient", "String"]

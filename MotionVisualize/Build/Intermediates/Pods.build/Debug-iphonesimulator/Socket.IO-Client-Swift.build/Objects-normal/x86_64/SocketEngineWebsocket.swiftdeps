@@ -11,18 +11,18 @@ provides-member:
 - ["P8SocketIO21SocketEngineWebsocket", "websocketDidReceiveData"]
 provides-dynamic-lookup:
 depends-top-level:
-- "SocketEnginePacketType"
-- "WebSocketDelegate"
-- "SocketEngineWebsocket"
-- !private "DefaultSocketLogger"
-- "WebSocket"
 - !private "StringLiteralType"
-- "SocketEngineSpec"
-- "Data"
-- !private "??"
+- "WebSocket"
 - !private "Array"
+- !private "??"
+- "Data"
+- "SocketEngineSpec"
 - "String"
+- !private "DefaultSocketLogger"
 - !private "BooleanLiteralType"
+- "SocketEnginePacketType"
+- "SocketEngineWebsocket"
+- "WebSocketDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "Logger"]
 - !private ["Ps9AnyObject", "init"]

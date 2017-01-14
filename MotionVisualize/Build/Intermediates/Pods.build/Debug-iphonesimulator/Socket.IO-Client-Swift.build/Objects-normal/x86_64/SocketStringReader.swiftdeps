@@ -7,13 +7,13 @@ provides-member:
 - ["V8SocketIO18SocketStringReader", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!="
-- !private "..<"
 - "SocketStringReader"
-- "String"
 - "Bool"
+- "String"
 - !private "+"
 - "AssignmentPrecedence"
+- !private "!="
+- !private "..<"
 - "Int"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]

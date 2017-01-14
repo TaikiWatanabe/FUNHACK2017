@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C15MotionVisualize5title", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 - "goGetMotion"
 depends-top-level:
-- "AnyObject"
-- "UIViewController"
-- !private "UIModalTransitionStyle"
-- "AssignmentPrecedence"
-- !private "BooleanLiteralType"
-- !private "UIStoryboard"
 - "title"
+- "AssignmentPrecedence"
+- !private "UIStoryboard"
+- "AnyObject"
+- !private "UIModalTransitionStyle"
 - !private "StringLiteralType"
+- "UIViewController"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "UIModalTransitionStyle"]
 - !private ["Ps9AnyObject", "UIStoryboard"]
@@ -305,4 +305,5 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pulsator/Pulsator.framework/Modules/Pulsator.swiftmodule/x86_64.swiftmodule"
 interface-hash: "6290dedb98b1bda61ccafeb291ba82b6"

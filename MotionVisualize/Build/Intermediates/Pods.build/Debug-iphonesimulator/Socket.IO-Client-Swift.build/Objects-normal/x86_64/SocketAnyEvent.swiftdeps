@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C8SocketIO14SocketAnyEvent", ""]
 provides-dynamic-lookup:
-- "items"
 - "description"
+- "items"
 - "event"
 depends-top-level:
-- "AssignmentPrecedence"
-- "NSObject"
 - !private "??"
+- "SocketAnyEvent"
+- "NSObject"
+- "AssignmentPrecedence"
 - "String"
 - !private "StringLiteralType"
-- "SocketAnyEvent"
 depends-member:
 - ["Ps9AnyObject", "description"]
 - ["Ps9AnyObject", "event"]

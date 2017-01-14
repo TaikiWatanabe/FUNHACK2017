@@ -7,21 +7,21 @@ provides-member:
 - ["V8SocketIO16SocketAckManager", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "FloatLiteralType"
-- "IntegerLiteralType"
-- "DispatchQueue"
-- !private "<"
-- !private "=="
-- "AssignmentPrecedence"
-- "Set"
-- "AckCallback"
+- !private "Array"
 - !private "StringLiteralType"
 - "Int"
-- !private "Bool"
-- !private "Hashable"
-- "SocketAck"
 - "SocketAckManager"
-- !private "Array"
+- !private "Hashable"
+- !private "Bool"
+- "FloatLiteralType"
+- "Set"
+- "AckCallback"
+- "IntegerLiteralType"
+- !private "=="
+- !private "<"
+- "DispatchQueue"
+- "AssignmentPrecedence"
+- "SocketAck"
 depends-member:
 - !private ["Ps9AnyObject", "async"]
 - !private ["Ps9AnyObject", "init"]

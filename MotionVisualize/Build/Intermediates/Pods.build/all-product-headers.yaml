@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Pods_MotionVisualize.framework/Headers",
+      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pods_MotionVisualize.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,29 +14,29 @@
         {
           'type': 'file',
           'name': "Pods_MotionVisualize-Swift.h",
-          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Pods_MotionVisualize.framework/Headers/Pods_MotionVisualize-Swift.h"
+          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pods_MotionVisualize.framework/Headers/Pods_MotionVisualize-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Pods_MotionVisualize.framework/Modules",
+      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pods_MotionVisualize.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-MotionVisualize.build/module.modulemap"
+          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MotionVisualize.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Pulsator/Pulsator.framework/Headers",
+      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pulsator/Pulsator.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pulsator-Swift.h",
-          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Pulsator/Pulsator.framework/Headers/Pulsator-Swift.h"
+          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pulsator/Pulsator.framework/Headers/Pulsator-Swift.h"
         },
         {
           'type': 'file',
@@ -47,18 +47,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Pulsator/Pulsator.framework/Modules",
+      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Pulsator/Pulsator.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphoneos/Pulsator.build/module.modulemap"
+          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pulsator.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers",
+      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -68,18 +68,18 @@
         {
           'type': 'file',
           'name': "SocketIO-Swift.h",
-          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules",
+      'name': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphoneos/Socket.IO-Client-Swift.build/module.modulemap"
+          'external-contents': "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Build/Intermediates/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/module.modulemap"
         }
       ]
     }

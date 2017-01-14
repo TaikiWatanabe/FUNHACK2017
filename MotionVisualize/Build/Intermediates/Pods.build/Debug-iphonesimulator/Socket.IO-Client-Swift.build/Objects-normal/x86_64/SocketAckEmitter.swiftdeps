@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C8SocketIO16SocketAckEmitter", ""]
 provides-dynamic-lookup:
-- "socket"
-- "with"
 - "ackNum"
+- "with"
+- "socket"
 depends-top-level:
-- !private "StringLiteralType"
-- "SocketAckEmitter"
-- "SocketData"
-- !private "!="
-- "NSObject"
 - "Int"
+- "SocketData"
+- !private "StringLiteralType"
 - "SocketIOClient"
+- "NSObject"
 - "AssignmentPrecedence"
+- !private "!="
+- "SocketAckEmitter"
 depends-member:
 - ["Ps9AnyObject", "ackNum"]
 - !private ["Ps9AnyObject", "emitAck"]

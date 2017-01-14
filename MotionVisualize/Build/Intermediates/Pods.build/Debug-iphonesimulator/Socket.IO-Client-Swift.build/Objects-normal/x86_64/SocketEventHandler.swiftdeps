@@ -7,13 +7,13 @@ provides-member:
 - ["V8SocketIO18SocketEventHandler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SocketIOClient"
-- "Int"
-- !private "SocketAckEmitter"
 - "String"
+- "Int"
+- "SocketIOClient"
 - "NormalCallback"
-- "UUID"
 - "SocketEventHandler"
+- !private "SocketAckEmitter"
+- "UUID"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Sa", "deinit"]

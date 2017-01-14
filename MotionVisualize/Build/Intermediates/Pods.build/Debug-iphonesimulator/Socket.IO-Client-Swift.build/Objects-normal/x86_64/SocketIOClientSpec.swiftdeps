@@ -8,15 +8,15 @@ provides-member:
 - ["P8SocketIO18SocketIOClientSpec", "didError"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Bool"
+- "SocketPacket"
+- "Int"
+- "SocketIOClientSpec"
+- "String"
 - !private "StringLiteralType"
 - !private "DefaultSocketLogger"
-- "String"
-- "Bool"
-- !private "BooleanLiteralType"
-- "SocketIOClientSpec"
 - !private "Array"
-- "Int"
-- "SocketPacket"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Logger"]
 - !private ["Ps9AnyObject", "init"]

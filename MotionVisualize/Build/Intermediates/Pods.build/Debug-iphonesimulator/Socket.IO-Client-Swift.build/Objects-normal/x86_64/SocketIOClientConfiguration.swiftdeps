@@ -7,20 +7,20 @@ provides-member:
 - ["V8SocketIO27SocketIOClientConfiguration", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "..<"
+- !private "IntegerLiteralType"
+- "SocketIOClientConfiguration"
+- "Array"
+- "Range"
+- !private "FloatLiteralType"
+- "SocketIOClientOption"
+- "AssignmentPrecedence"
+- !private "=="
 - "MutableCollection"
 - "Collection"
 - "ExpressibleByArrayLiteral"
-- "Range"
-- !private "..<"
-- "BooleanLiteralType"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
 - "Bool"
-- "SocketIOClientConfiguration"
-- !private "=="
-- "AssignmentPrecedence"
-- "Array"
-- "SocketIOClientOption"
+- "BooleanLiteralType"
 depends-member:
 - ["Sa", "Generator"]
 - ["Sa", "Index"]

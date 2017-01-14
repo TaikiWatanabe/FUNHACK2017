@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "c3f3f514735299c3656f4fa625f044aa"
-build_time: [537712065, 869537000]
+build_time: [537725955, 509130000]
 inputs:
   "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Pods/Socket.IO-Client-Swift/Source/SocketAckEmitter.swift": [537688152, 0]
   "/Users/goudakazuma/Desktop/FUNHACK2017/MotionVisualize/Pods/Socket.IO-Client-Swift/Source/SocketAckManager.swift": [537688152, 0]

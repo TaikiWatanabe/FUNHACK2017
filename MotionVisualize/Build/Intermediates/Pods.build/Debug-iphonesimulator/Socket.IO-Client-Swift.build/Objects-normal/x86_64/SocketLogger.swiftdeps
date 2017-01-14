@@ -14,13 +14,13 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "StringLiteralType"
 - "DefaultSocketLogger"
-- "Bool"
-- "BooleanLiteralType"
-- "SocketLogger"
-- !private "CVarArg"
-- "String"
-- !private "NSLog"
 - !private "UnicodeScalarType"
+- "Bool"
+- "String"
+- "BooleanLiteralType"
+- !private "CVarArg"
+- !private "NSLog"
+- "SocketLogger"
 depends-member:
 - ["Ps9AnyObject", "DefaultSocketLogger"]
 - ["Ps9AnyObject", "error"]

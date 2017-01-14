@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C8SocketIO19SocketClientManager", ""]
 provides-dynamic-lookup:
-- "addSocket"
 - "sharedManager"
+- "addSocket"
 - "removeSockets"
 - "subscript"
 - "removeSocket"
 - "removeSocket"
 depends-top-level:
-- "NSObject"
-- !private "==="
 - "String"
+- !private "==="
 - "AssignmentPrecedence"
 - "SocketIOClient"
+- "NSObject"
 - "SocketClientManager"
 depends-member:
 - ["Ps9AnyObject", "SocketClientManager"]

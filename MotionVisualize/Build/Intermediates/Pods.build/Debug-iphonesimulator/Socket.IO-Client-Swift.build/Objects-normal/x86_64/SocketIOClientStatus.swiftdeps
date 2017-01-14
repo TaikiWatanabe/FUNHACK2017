@@ -7,12 +7,12 @@ provides-member:
 - ["O8SocketIO20SocketIOClientStatus", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "SocketIOClientStatus"
 - "FloatLiteralType"
 - "IntegerLiteralType"
 - "=="
-- "Int"
-- "SocketIOClientStatus"
 - !private "~="
+- "Int"
 depends-member:
 - !private ["Ps17BitwiseOperations", "Stride"]
 - !private ["Ps17BitwiseOperations", "hashValue"]
