@@ -1,12 +1,15 @@
 PODS:
+  - Pulsator (0.2.0)
   - Socket.IO-Client-Swift (8.0.2)
 
 DEPENDENCIES:
+  - Pulsator
   - Socket.IO-Client-Swift
 
 SPEC CHECKSUMS:
+  Pulsator: 0df1d24c09354555be8f4c386ba7c4df297690eb
   Socket.IO-Client-Swift: 136598e4a81a42b0e6855e7f94a0e5a6efdc5ff8
 
-PODFILE CHECKSUM: 7478a4ce61261af0b2f27786137e95db53e5f694
+PODFILE CHECKSUM: 854f0760f24ff6bbacd698e470ff8dc7fda3bcb0
 
 COCOAPODS: 1.1.1

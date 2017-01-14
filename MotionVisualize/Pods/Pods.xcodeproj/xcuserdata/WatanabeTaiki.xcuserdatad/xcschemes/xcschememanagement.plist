@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pulsator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Socket.IO-Client-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1F81F5715063555A664CE86C42A7FD27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>90646397A36FE075D9D52229021984F1</key>
 		<dict>
 			<key>primary</key>
@@ -37,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B3A1E7853B8CFFEC8F9693D3BE680A3F</key>
+		<key>D398FEDA1F85F19885F9893AFB1D7DD2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB0F2FE00F7F28132567E0EA784F1C64</key>
+		<key>EDBFC20A4522A3680425EFA166B4C364</key>
 		<dict>
 			<key>primary</key>
 			<true/>
