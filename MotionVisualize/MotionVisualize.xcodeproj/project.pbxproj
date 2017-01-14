@@ -16,8 +16,9 @@
 		5CE7E9A51E29F28400B2CFF3 /* MotionVisualizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9A41E29F28400B2CFF3 /* MotionVisualizeTests.swift */; };
 		5CE7E9B01E29F28400B2CFF3 /* MotionVisualizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9AF1E29F28400B2CFF3 /* MotionVisualizeUITests.swift */; };
 		5F1D1FC01E2A6D60008B8D14 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D1FBF1E2A6D60008B8D14 /* user.png */; };
-		5F1D1FC21E2A766B008B8D14 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D1FC11E2A766B008B8D14 /* Logo.png */; };
 		5F1D1FC41E2A7AEE008B8D14 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D1FC31E2A7AEE008B8D14 /* bg.jpg */; };
+		5F76E16D1E2AA2E800B6ACDD /* IPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F76E16C1E2AA2E800B6ACDD /* IPhone_5s.png */; };
+		5F76E1711E2AAD7D00B6ACDD /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F76E1701E2AAD7D00B6ACDD /* logo.gif */; };
 		5F96E71D1E29FDAC001D310C /* getMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E71C1E29FDAC001D310C /* getMotion.swift */; };
 		9B54FE94931D4BD2C455B28C /* Pods_MotionVisualizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1ADD41BC798E2B48C26C /* Pods_MotionVisualizeTests.framework */; };
 		AADAB45669B4C19F8952BC46 /* Pods_MotionVisualize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F35DFC061B2F36579E7E0E4 /* Pods_MotionVisualize.framework */; };
@@ -59,8 +60,9 @@
 		5CE7E9B11E29F28400B2CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D924B8FD0705963D4995B88 /* Pods-MotionVisualizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeTests/Pods-MotionVisualizeTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F1D1FBF1E2A6D60008B8D14 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
-		5F1D1FC11E2A766B008B8D14 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		5F1D1FC31E2A7AEE008B8D14 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../bg.jpg; sourceTree = "<group>"; };
+		5F76E16C1E2AA2E800B6ACDD /* IPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IPhone_5s.png; path = ../../../IPhone_5s.png; sourceTree = "<group>"; };
+		5F76E1701E2AAD7D00B6ACDD /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = ../../../logo.gif; sourceTree = "<group>"; };
 		5F96E71C1E29FDAC001D310C /* getMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getMotion.swift; sourceTree = "<group>"; };
 		68A3CFDF49D80D6A48479379 /* Pods_MotionVisualizeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionVisualizeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C35147512CBA52C3493CE0 /* Pods-MotionVisualizeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeUITests/Pods-MotionVisualizeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,8 +137,9 @@
 		5CE7E98E1E29F28300B2CFF3 /* MotionVisualize */ = {
 			isa = PBXGroup;
 			children = (
+				5F76E1701E2AAD7D00B6ACDD /* logo.gif */,
+				5F76E16C1E2AA2E800B6ACDD /* IPhone_5s.png */,
 				5F1D1FC31E2A7AEE008B8D14 /* bg.jpg */,
-				5F1D1FC11E2A766B008B8D14 /* Logo.png */,
 				5F1D1FBF1E2A6D60008B8D14 /* user.png */,
 				5CE7E98F1E29F28300B2CFF3 /* AppDelegate.swift */,
 				5CE7E9911E29F28300B2CFF3 /* title.swift */,
@@ -296,8 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1D1FC21E2A766B008B8D14 /* Logo.png in Resources */,
 				5CE7E99A1E29F28300B2CFF3 /* LaunchScreen.storyboard in Resources */,
+				5F76E16D1E2AA2E800B6ACDD /* IPhone_5s.png in Resources */,
+				5F76E1711E2AAD7D00B6ACDD /* logo.gif in Resources */,
 				5F1D1FC01E2A6D60008B8D14 /* user.png in Resources */,
 				5CE7E9971E29F28300B2CFF3 /* Assets.xcassets in Resources */,
 				5F1D1FC41E2A7AEE008B8D14 /* bg.jpg in Resources */,
