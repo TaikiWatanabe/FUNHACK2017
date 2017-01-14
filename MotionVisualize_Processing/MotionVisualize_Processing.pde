@@ -27,6 +27,8 @@ void draw() {
     if(circle[i].getFlag()) {
       circle[i].move();
       circle[i].circleDraw();
+    }
+    if(heart[i].getFlag()){
       heart[i].move();
       heart[i].heartDraw();
     }
@@ -40,7 +42,7 @@ void mousePressed() {
     heart[i] = new Heart(heart[i-1]);
   }
   circle[0].init(mouseX,mouseY,random(5,15),int(random(10,80)));
-  heart[0].init(mouseX,mouseY,random(5,15),int(random(10,80)));
+  heart[0].init(mouseX,mouseY,random(5,15),int(random(10,80)),random(PI),random(PI));
 }
 
 // キーボードを押すと各円のフラグを立てる
