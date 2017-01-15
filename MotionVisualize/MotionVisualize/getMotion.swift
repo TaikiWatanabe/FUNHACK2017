@@ -10,24 +10,26 @@ import UIKit
 import CoreMotion
 import Pulsator
 import SpriteKit
-import SocketIO
+import Starscream
 
 let kMaxRadius: CGFloat = 200
 let kMaxDuration: TimeInterval = 10
 
-class getMotion: UIViewController {
+class getMotion: UIViewController, WebSocketDelegate {
     
     @IBOutlet weak var sourceView: UIImageView!
     @IBOutlet weak var graphView: UIView!
 
     private var motionManager: CMMotionManager!//CMMotion使うためのやつ1
     let pulsator = Pulsator()
-    let socket = SocketIOClient(socketURL: URL(string: "https://motionvisualizer.herokuapp.com")!, config: [.log(true), .forcePolling(true)])
+
+    let socket = WebSocket(url: URL(string: "ws://motionvisualizer.herokuapp.com")!)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        socket.connect()//サーバとの通信を開始する
+        socket.delegate = self
+        socket.connect()
         
         //波紋の描画
         sourceView.layer.addSublayer(pulsator)
@@ -41,12 +43,32 @@ class getMotion: UIViewController {
         
         motionManager.startDeviceMotionUpdates(to: OperationQueue.current!, withHandler: {deviceManager, error in
             let accel: CMAcceleration = deviceManager!.userAcceleration
-            
-            self.socket.emit("xy", [accel.x,accel.y])
+            let text:String = "".appendingFormat("%.4f", accel.x) + "," + "".appendingFormat("%.4f", accel.y)
+            self.socket.write(string: text)
         })
         
-        Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(getMotion.onTick(_:)), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(getMotion.onTick(_:)), userInfo: nil, repeats: false)
 
+    }
+    
+    func websocketDidConnect(socket: WebSocket) {
+        print("websocket is connected")
+    }
+    
+    func websocketDidDisconnect(socket: WebSocket, error: NSError?) {
+        if let e = error {
+            print("websocket is disconnected: \(e.localizedDescription)")
+        } else {
+            print("websocket disconnected")
+        }
+    }
+    
+    func websocketDidReceiveMessage(socket: WebSocket, text: String) {
+        print("Received text: \(text)")
+    }
+    
+    func websocketDidReceiveData(socket: WebSocket, data: Data) {
+        print("Received data: \(data.count)")
     }
     
     override func didReceiveMemoryWarning() {
