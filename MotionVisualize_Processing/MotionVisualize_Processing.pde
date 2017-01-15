@@ -10,6 +10,7 @@ int MAX = 100;
 int time = 0;
 int hc = 0;
 int sc = 0;
+int[] fil = new int[SIZE];
 Circle[] circle = new Circle[SIZE];
 Rect[] rect = new Rect[SIZE];
 Heart[] heart = new Heart[MAX];
@@ -110,8 +111,11 @@ void webSocketEvent(String msg){
  int []array = new int[2];
  array=int(split(msg,","));
  println(array);
+ if(array[0]==0||array[1]==0){
+ }else{
  for (int i=SIZE-1; i>0; i--) {
     circle[i] = new Circle(circle[i-1]);
   }
-circle[0].init(displayWidth*array[0]/100, displayHeight*array[1]/100, random(5, 15), int(random(10, 80)));
+circle[0].init(displayWidth/2+displayWidth*array[0]/100, displayHeight/2+displayHeight*array[1]/100, random(5, 15), int(random(10, 80)));
+ }
 }
