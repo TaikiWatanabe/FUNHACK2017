@@ -15,12 +15,13 @@
 		5CE7E99A1E29F28300B2CFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7E9981E29F28300B2CFF3 /* LaunchScreen.storyboard */; };
 		5CE7E9A51E29F28400B2CFF3 /* MotionVisualizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9A41E29F28400B2CFF3 /* MotionVisualizeTests.swift */; };
 		5CE7E9B01E29F28400B2CFF3 /* MotionVisualizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7E9AF1E29F28400B2CFF3 /* MotionVisualizeUITests.swift */; };
-		5F1499B91E2AE103005599A2 /* ad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1499B81E2AE103005599A2 /* ad.jpeg */; };
-		5F1499BB1E2AE488005599A2 /* logoP.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F1499BA1E2AE488005599A2 /* logoP.png */; };
 		5F1499BD1E2AEF44005599A2 /* Button_Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1499BC1E2AEF44005599A2 /* Button_Custom.swift */; };
-		5F1D1FC41E2A7AEE008B8D14 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D1FC31E2A7AEE008B8D14 /* bg.jpg */; };
-		5F76E16D1E2AA2E800B6ACDD /* IPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F76E16C1E2AA2E800B6ACDD /* IPhone_5s.png */; };
-		5F76E1711E2AAD7D00B6ACDD /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F76E1701E2AAD7D00B6ACDD /* logo.gif */; };
+		5F2A26C61E2B173000EB2E29 /* ad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A26C11E2B173000EB2E29 /* ad.jpeg */; };
+		5F2A26C71E2B173000EB2E29 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A26C21E2B173000EB2E29 /* bg.jpg */; };
+		5F2A26C81E2B173000EB2E29 /* IPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A26C31E2B173000EB2E29 /* IPhone_5s.png */; };
+		5F2A26C91E2B173000EB2E29 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A26C41E2B173000EB2E29 /* logo.gif */; };
+		5F2A26CA1E2B173000EB2E29 /* logoP.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A26C51E2B173000EB2E29 /* logoP.png */; };
+		5F2A26CC1E2B17AF00EB2E29 /* result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A26CB1E2B17AF00EB2E29 /* result.swift */; };
 		5F96E71D1E29FDAC001D310C /* getMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E71C1E29FDAC001D310C /* getMotion.swift */; };
 		9B54FE94931D4BD2C455B28C /* Pods_MotionVisualizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1ADD41BC798E2B48C26C /* Pods_MotionVisualizeTests.framework */; };
 		AADAB45669B4C19F8952BC46 /* Pods_MotionVisualize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F35DFC061B2F36579E7E0E4 /* Pods_MotionVisualize.framework */; };
@@ -61,12 +62,13 @@
 		5CE7E9AF1E29F28400B2CFF3 /* MotionVisualizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionVisualizeUITests.swift; sourceTree = "<group>"; };
 		5CE7E9B11E29F28400B2CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D924B8FD0705963D4995B88 /* Pods-MotionVisualizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeTests/Pods-MotionVisualizeTests.release.xcconfig"; sourceTree = "<group>"; };
-		5F1499B81E2AE103005599A2 /* ad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ad.jpeg; path = ../../../ad.jpeg; sourceTree = "<group>"; };
-		5F1499BA1E2AE488005599A2 /* logoP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoP.png; path = ../../../logoP.png; sourceTree = "<group>"; };
 		5F1499BC1E2AEF44005599A2 /* Button_Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button_Custom.swift; sourceTree = "<group>"; };
-		5F1D1FC31E2A7AEE008B8D14 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../bg.jpg; sourceTree = "<group>"; };
-		5F76E16C1E2AA2E800B6ACDD /* IPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IPhone_5s.png; path = ../../../IPhone_5s.png; sourceTree = "<group>"; };
-		5F76E1701E2AAD7D00B6ACDD /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = ../../../logo.gif; sourceTree = "<group>"; };
+		5F2A26C11E2B173000EB2E29 /* ad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ad.jpeg; path = image/ad.jpeg; sourceTree = "<group>"; };
+		5F2A26C21E2B173000EB2E29 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = image/bg.jpg; sourceTree = "<group>"; };
+		5F2A26C31E2B173000EB2E29 /* IPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IPhone_5s.png; path = image/IPhone_5s.png; sourceTree = "<group>"; };
+		5F2A26C41E2B173000EB2E29 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = image/logo.gif; sourceTree = "<group>"; };
+		5F2A26C51E2B173000EB2E29 /* logoP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoP.png; path = image/logoP.png; sourceTree = "<group>"; };
+		5F2A26CB1E2B17AF00EB2E29 /* result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = result.swift; sourceTree = "<group>"; };
 		5F96E71C1E29FDAC001D310C /* getMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getMotion.swift; sourceTree = "<group>"; };
 		68A3CFDF49D80D6A48479379 /* Pods_MotionVisualizeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionVisualizeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C35147512CBA52C3493CE0 /* Pods-MotionVisualizeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionVisualizeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionVisualizeUITests/Pods-MotionVisualizeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,11 +143,11 @@
 		5CE7E98E1E29F28300B2CFF3 /* MotionVisualize */ = {
 			isa = PBXGroup;
 			children = (
-				5F1499BA1E2AE488005599A2 /* logoP.png */,
-				5F1499B81E2AE103005599A2 /* ad.jpeg */,
-				5F76E1701E2AAD7D00B6ACDD /* logo.gif */,
-				5F76E16C1E2AA2E800B6ACDD /* IPhone_5s.png */,
-				5F1D1FC31E2A7AEE008B8D14 /* bg.jpg */,
+				5F2A26C11E2B173000EB2E29 /* ad.jpeg */,
+				5F2A26C21E2B173000EB2E29 /* bg.jpg */,
+				5F2A26C31E2B173000EB2E29 /* IPhone_5s.png */,
+				5F2A26C41E2B173000EB2E29 /* logo.gif */,
+				5F2A26C51E2B173000EB2E29 /* logoP.png */,
 				5CE7E98F1E29F28300B2CFF3 /* AppDelegate.swift */,
 				5CE7E9911E29F28300B2CFF3 /* title.swift */,
 				5CE7E9931E29F28300B2CFF3 /* Main.storyboard */,
@@ -154,6 +156,7 @@
 				5CE7E99B1E29F28300B2CFF3 /* Info.plist */,
 				5F96E71C1E29FDAC001D310C /* getMotion.swift */,
 				5F1499BC1E2AEF44005599A2 /* Button_Custom.swift */,
+				5F2A26CB1E2B17AF00EB2E29 /* result.swift */,
 			);
 			path = MotionVisualize;
 			sourceTree = "<group>";
@@ -305,13 +308,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1499B91E2AE103005599A2 /* ad.jpeg in Resources */,
+				5F2A26C81E2B173000EB2E29 /* IPhone_5s.png in Resources */,
+				5F2A26C71E2B173000EB2E29 /* bg.jpg in Resources */,
+				5F2A26C91E2B173000EB2E29 /* logo.gif in Resources */,
+				5F2A26C61E2B173000EB2E29 /* ad.jpeg in Resources */,
 				5CE7E99A1E29F28300B2CFF3 /* LaunchScreen.storyboard in Resources */,
-				5F76E16D1E2AA2E800B6ACDD /* IPhone_5s.png in Resources */,
-				5F76E1711E2AAD7D00B6ACDD /* logo.gif in Resources */,
-				5F1499BB1E2AE488005599A2 /* logoP.png in Resources */,
+				5F2A26CA1E2B173000EB2E29 /* logoP.png in Resources */,
 				5CE7E9971E29F28300B2CFF3 /* Assets.xcassets in Resources */,
-				5F1D1FC41E2A7AEE008B8D14 /* bg.jpg in Resources */,
 				5CE7E9951E29F28300B2CFF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +480,7 @@
 			files = (
 				5F1499BD1E2AEF44005599A2 /* Button_Custom.swift in Sources */,
 				5CE7E9921E29F28300B2CFF3 /* title.swift in Sources */,
+				5F2A26CC1E2B17AF00EB2E29 /* result.swift in Sources */,
 				5F96E71D1E29FDAC001D310C /* getMotion.swift in Sources */,
 				5CE7E9901E29F28300B2CFF3 /* AppDelegate.swift in Sources */,
 			);

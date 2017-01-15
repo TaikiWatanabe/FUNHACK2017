@@ -24,7 +24,7 @@ class title: UIViewController {
         let data = try! Data(contentsOf: url)
         webview.load(data, mimeType: "image/gif", textEncodingName: "UTF-8", baseURL: NSURL() as URL)
 
-        Timer.scheduledTimer(timeInterval: 4, target: self, selector: #selector(self.onTick(_:)), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 3.5, target: self, selector: #selector(self.onTick(_:)), userInfo: nil, repeats: false)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
