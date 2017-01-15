@@ -14,6 +14,7 @@ Circle[] circle = new Circle[SIZE];
 Rect[] rect = new Rect[SIZE];
 Heart[] heart = new Heart[MAX];
 Star[] star = new Star[SIZE];
+Triangle[] triangle = new Triangle[SIZE];
 
 void setup() {
   //通信先指定
@@ -31,6 +32,7 @@ void setup() {
     circle[i] = new Circle();
     rect[i] = new Rect();
     star[i] = new Star();
+    triangle[i] = new Triangle();
   }
   for (int i=0; i<MAX; i++) {
     heart[i] = new Heart();
@@ -48,6 +50,10 @@ void draw() {
     if (rect[i].getFlag()) {
       rect[i].move();
       rect[i].rectDraw();
+    }
+    if (triangle[i].getFlag()) {
+      triangle[i].move();
+      triangle[i].triangleDraw();
     }
     if (star[i].getFlag()) {
       star[i].move();
@@ -80,9 +86,11 @@ void mousePressed() {
   for (int i=SIZE-1; i>0; i--) {
     circle[i] = new Circle(circle[i-1]);
     rect[i] = new Rect(rect[i-1]);
+    triangle[i] = new Triangle(triangle[i-1]);
   }
   circle[0].init(mouseX, mouseY, random(5, 15), int(random(10, 80)));
   rect[0].init(mouseX, mouseY, random(5, 15), int(random(10, 80)));
+  triangle[0].init(mouseX, mouseY, random(5, 15), int(random(10, 80)));
   
 }
 
