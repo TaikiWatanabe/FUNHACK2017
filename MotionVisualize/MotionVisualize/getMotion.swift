@@ -78,7 +78,6 @@ class getMotion: UIViewController, WebSocketDelegate {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-
     }
     
     @IBAction func stop(_ sender: AnyObject) {
@@ -88,5 +87,15 @@ class getMotion: UIViewController, WebSocketDelegate {
     //0.1秒間隔の定期処理
     func onTick(_ timer: Timer){
         pulsator.start()
+    }
+    
+    @IBAction func back(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func result(_ sender: AnyObject) {
+        let targetView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "result")
+        targetView.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        self.present(targetView, animated: true, completion: nil)
     }
 }
