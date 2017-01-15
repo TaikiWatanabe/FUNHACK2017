@@ -11,14 +11,21 @@ import UIKit
 class title: UIViewController {
 
     @IBOutlet weak var webview: UIWebView!
+    @IBOutlet weak var logoPng: UIImageView!
+    @IBOutlet weak var bgPic: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        logoPng.isHidden = true
+        bgPic.isHidden = true
         
         let url = Bundle.main.url(forResource: "logo", withExtension: "gif")!
         let data = try! Data(contentsOf: url)
         webview.load(data, mimeType: "image/gif", textEncodingName: "UTF-8", baseURL: NSURL() as URL)
 
+        Timer.scheduledTimer(timeInterval: 4, target: self, selector: #selector(self.onTick(_:)), userInfo: nil, repeats: false)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -33,5 +40,13 @@ class title: UIViewController {
         targetView.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
         self.present(targetView, animated: true, completion: nil)
     }
+    
+    func onTick(_ timer: Timer){
+        webview.isHidden = true
+        logoPng.isHidden = false
+        bgPic.isHidden = false
+    }
+    
+    
 }
 

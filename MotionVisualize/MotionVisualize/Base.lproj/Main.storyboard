@@ -18,13 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="muN-tF-BNd">
+                                <frame key="frameInset" minX="-290" width="901" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STr-lC-DZw">
-                                <frame key="frameInset" minX="19.06%" minY="66.90%" width="62.50%" height="7.39%"/>
+                                <frame key="frameInset" minX="19.06%" minY="77.99%" width="61.88%" height="7.39%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.65098039220000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="start">
-                                    <color key="titleColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="goGetMotion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ywa-6K-fIJ"/>
@@ -35,10 +38,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92195630660000005" green="0.90973504790000004" blue="0.88118091519999997" alpha="0.0" colorSpace="calibratedRGB"/>
                             </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoP.png" translatesAutoresizingMaskIntoConstraints="NO" id="PPN-Yx-gFF">
+                                <frame key="frameInset" minY="188" width="320" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="bgPic" destination="muN-tF-BNd" id="R7X-HH-s9L"/>
+                        <outlet property="logoPng" destination="PPN-Yx-gFF" id="y5j-3y-9dv"/>
                         <outlet property="webview" destination="591-tk-a3J" id="yZS-1e-ho7"/>
                     </connections>
                 </viewController>
@@ -58,27 +67,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxI-0R-Edc" customClass="Button_Custom" customModule="MotionVisualize" customModuleProvider="target">
+                                <frame key="frameInset" minX="27.81%" minY="66.55%" width="44.38%" height="9.16%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77647058820000003" green="0.25273652507800498" blue="0.20975669484182691" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="End">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="26"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stop:" destination="B0O-uP-Ph2" eventType="touchUpInside" id="82I-iE-TF0"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xs4-sK-yS9">
-                                <frame key="frameInset" minX="0.0%" minY="0.0%" width="99.06%" height="55.99%"/>
+                                <frame key="frameInset" minX="0.94%" minY="8.63%" width="99.69%" height="56.51%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EB9-zF-0rr">
-                                        <frame key="frameInset" minX="50.16%" minY="49.69%" width="2.52%" height="3.15%"/>
+                                        <frame key="frameInset" minX="50.16%" minY="49.22%" width="2.19%" height="4.36%"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IPhone_5s.png" translatesAutoresizingMaskIntoConstraints="NO" id="9nG-OW-P6j">
-                                        <frame key="frameInset" minX="46.37%" minY="42.77%" width="6.94%" height="14.15%"/>
+                                        <frame key="frameInset" minX="46.08%" minY="42.37%" width="7.84%" height="14.33%"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now on visualize..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDr-iJ-uJ2">
+                                        <frame key="frameInset" minX="43" minY="47" width="231" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.83928285256410251" green="0.83928285256410251" blue="0.83928285256410251" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxI-0R-Edc">
-                                <frame key="frameInset" minX="29.38%" minY="55.99%" width="40.63%" height="7.75%"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnO-G6-n6P" customClass="Button_Custom" customModule="MotionVisualize" customModuleProvider="target">
+                                <frame key="frameInset" minX="27.81%" minY="81.69%" width="44.38%" height="9.16%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.27058823529999998" green="0.67450980390000004" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="26"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="stop:" destination="B0O-uP-Ph2" eventType="touchUpInside" id="82I-iE-TF0"/>
+                                    <action selector="stop:" destination="B0O-uP-Ph2" eventType="touchUpInside" id="cF2-7n-RkH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,10 +132,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gY3-Xf-V4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815.625" y="137.32394366197184"/>
+            <point key="canvasLocation" x="890.625" y="137.32394366197184"/>
         </scene>
     </scenes>
     <resources>
         <image name="IPhone_5s.png" width="570" height="1199"/>
+        <image name="ad.jpeg" width="4350" height="2900"/>
+        <image name="logoP.png" width="2667" height="1611"/>
     </resources>
 </document>
